@@ -1,0 +1,12 @@
+{
+  "parsed_movies": 2000,
+  "html_files": 2016,
+  "detail_pages": 2000,
+  "category_pages": 12,
+  "category_covered_movies": 2000,
+  "baidu_missing_pages": [],
+  "player_pages_with_m3u8": 2000,
+  "image_files_in_zip_source": 0,
+  "video_url_count_from_original_js": 20,
+  "zip_path": "/mnt/data/guochan-movie-static-site.zip"
+}

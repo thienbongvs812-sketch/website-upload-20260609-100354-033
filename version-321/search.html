@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-精品国产影视</title>
+  <meta name="description" content="精品国产影视搜索页可按片名、地区、年份、类型、标签检索影片并进入静态详情页。">
+  <meta name="keywords" content="搜索,影片搜索,国产影视视频免费在线播放_超清电影电视剧大全-精品国产影视,国产,视频,免费,在线观看,高清,影视大全">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./index.html" aria-label="精品国产影视">
+        <span class="brand-icon">▶</span>
+        <span class="brand-text">
+          <strong>精品国产影视</strong>
+          <small>超清电影电视剧大全</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./ranking.html">排行榜</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+      </nav>
+      <form class="header-search" action="./search.html" method="get" data-site-search>
+        <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" data-mobile-nav aria-label="移动导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div class="container">
+        <span>Search</span>
+        <h1>影片搜索</h1>
+        <p>输入片名、地区、年份、类型或关键词，快速定位影片详情页。</p>
+        <form class="search-page-form" action="search.html" method="get" data-search-page-form>
+          <input type="search" name="q" placeholder="输入影片关键词..." data-search-input>
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="search-summary" data-search-summary>请输入关键词开始搜索。</div>
+        <div class="movie-grid five-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="./index.html" aria-label="精品国产影视">
+          <span class="brand-icon">▶</span>
+          <span class="brand-text">
+            <strong>精品国产影视</strong>
+            <small>超清电影电视剧大全</small>
+          </span>
+        </a>
+        <p>围绕国产影视整理视频资源，提供免费在线播放、超清播放与多维分类入口，可按电影电视剧大全、热播榜与推荐榜浏览。</p>
+      </div>
+      <div>
+        <h3>快速导航</h3>
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">热播榜</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+      <div>
+        <h3>分类入口</h3>
+        <a href="./category-01.html">精选片库一</a>
+        <a href="./category-02.html">精选片库二</a>
+        <a href="./category-03.html">精选片库三</a>
+        <a href="./category-04.html">精选片库四</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 精品国产影视. 视频资源仅供个人学习交流使用。</span>
+    </div>
+  </footer>
+  <script src="./assets/js/search-data.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</body>
+</html>
